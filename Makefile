@@ -1,5 +1,5 @@
 test:
-	@node test/index.js
+	@node node_modules/.bin/mocha test/index.js
 
 docs:
 	@mkdir -p docs

@@ -1,24 +1,28 @@
 {
-  "name": "mongojito",
-  "description": "MongoDB ODM based on Mongorito",
-  "version": "0.0.1",
-  "keywords": ["mongo", "mongodb", "odm"],
-  "author": {
-    "name": "Lorenzo Giuliani",
-    "email": "lorenzo@frenzart.com"
-  },
-  "dependencies": {
-    "mongolian": "~ 0.1.18",
-    "i": "~ 0.2.0",
-    "async": "~ 0.1.18"
-  },
-  "devDependencies": {
+  "name": "mongojito"
+, "description": "MongoDB ODM based on Mongorito"
+, "version": "0.0.1"
+, "keywords": ["mongo", "mongodb", "odm"]
+, "author": {
+    "name": "Lorenzo Giuliani"
+  , "email": "lorenzo@frenzart.com"
+  }
+, "bugs": {
+    "url" : "http://github.com/owner/project/issues"
+  , "email" : "project@hostname.com"
+  }
+, "dependencies": {
+    "mongolian": "~ 0.1.18"
+  , "i": "~ 0.2.0"
+  , "async": "~ 0.1.18"
+  }
+, "devDependencies": {
     "should": "*"
   , "mocha": "*"
   , "ape": "*"
-  },
-  "main": "./lib/mongojito.js",
-  "engines": {
+  }
+, "main": "./lib/mongojito.js"
+, "engines": {
     "node": ">= 0.6.x"
   }
 }

@@ -14,7 +14,6 @@ describe('Mongojito', function() {
     Mongojito.DB.collection('posts').drop();
   });
 
-
   describe('creating new record', function() {
     it('should create new record in "posts" collection', function(done) {
       var post = new Post;

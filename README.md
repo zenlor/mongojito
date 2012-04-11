@@ -1,0 +1,1 @@
+a pure JavaScript fork of [Mongoito](http://vdemedes.github.com/mongorito)
